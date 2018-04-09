@@ -124,6 +124,21 @@
     		<artifactId>derby</artifactId>
     		<version>${derby.version}</version>
 		</dependency>
+		<dependency>
+    		<groupId>org.apache.activemq</groupId>
+    		<artifactId>activemq-client</artifactId>
+    		<version>5.15.3</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.apache.activemq</groupId>
+    		<artifactId>activemq-broker</artifactId>
+    		<version>5.15.3</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.apache.activemq</groupId>
+    		<artifactId>activemq-kahadb-store</artifactId>
+    		<version>5.15.3</version>
+		</dependency>
 		<!-- for testing -->
 		<dependency>
 			<groupId>org.mule.tests</groupId>
@@ -146,6 +161,12 @@
     <dependency>
             <groupId>org.mule.modules</groupId>
             <artifactId>mule-module-db</artifactId>
+            <version>${mule.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    <dependency>
+            <groupId>org.mule.transports</groupId>
+            <artifactId>mule-transport-jms</artifactId>
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
