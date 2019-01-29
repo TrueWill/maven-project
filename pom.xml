@@ -152,17 +152,17 @@
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-client</artifactId>
-			<version>5.15.3</version>
+			<version>5.15.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-broker</artifactId>
-			<version>5.15.3</version>
+			<version>5.15.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-kahadb-store</artifactId>
-			<version>5.15.3</version>
+			<version>5.15.8</version>
 		</dependency>
 		<!-- for testing -->
 		<dependency>
